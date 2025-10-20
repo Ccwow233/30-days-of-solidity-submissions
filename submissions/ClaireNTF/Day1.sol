@@ -9,4 +9,8 @@ contract ClickCounter {
     function click() public {
         counter++;
     }
+
+    function reset() public {
+        counter = 0
+    }
 }
